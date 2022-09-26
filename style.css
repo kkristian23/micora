@@ -8,7 +8,7 @@ body {
     background-color: pink;
     font-size: 30px;
     font-weight: 600;
-    padding: auto;
+    /* padding: auto; */
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -27,21 +27,18 @@ body {
     outline: rgb(255, 255, 255) groove 3px;
 }
 .header {
-    background-color: 0;
+    /* background-color: 0; */
     mix-blend-mode: multiply;
 }
 .mainMenu {
-    min-width: auto;
-        min-height:  auto;
+    width: 100%;
+height: 100%;
     display: flex;
     color: #285AEB;
     /* border:solid 3px #285AEB; */
     
     }
-    /* .container{
-        width: 100%;
-        height: 100%;
-    } */
+  
 .img {
     max-width: 12%;
     min-height: 90px; 
@@ -51,26 +48,17 @@ display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
 }
-/* .img2{
-    display: none;
-} */
-/* .container{
-    border: solid 2px;
-    display: flex;
 
-} */
-.container .mainMenu{
+ul{
 
-}
-.mainMenu .ul{
 margin: auto;
 display:flex;
 flex-wrap: wrap;
 justify-content:flex-end;
-
 }
-.mainMenu li {
-/* width: auto;     */
+
+li {
+
 /* margin-left: auto; */
 padding-left: 90px;
     font-family: 'Courier New', Courier, monospace;
@@ -78,13 +66,11 @@ padding-left: 90px;
     float:right; 
     /* margin: auto; */
 
-    
 }
-/* li .ABOUT_ME{
-    margin-left: 300px;
-} */
+
 .mainMenu a {
-    /* display: flex; */
+    
+    display: flex;
     text-decoration: none;
     background-color: #fff;
     color: #626262;
@@ -94,7 +80,7 @@ padding-left: 90px;
 
 .mainMenu  a:hover {
     color: rgb(211, 7, 190);
-    transform: translateY(3px);
+    /* transform: translateY(3px); */
 }
 
 .content {
@@ -106,14 +92,14 @@ padding-left: 90px;
 
 }
 
-.content img {
+.img {
     height: auto;
     width: auto;
     max-width: 180px;
     max-height: 550px;
     position: relative;
-    top: 75px;
-    left: 10px;
+    /* top: 75px;
+    left: 10px; */
     /* margin-top: 80px;
     margin-left: 10px; */
 }
@@ -196,8 +182,9 @@ padding-left: 90px;
     right: 28px;
 } */
  
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 body{
+<<<<<<< HEAD
     /* margin: 10px;
     
 padding: 0; */
@@ -215,63 +202,43 @@ opacity: 75%;
     top: 0;
     right: 0;
 >>>>>>> improve-cris
+=======
+ margin: 0;
+padding: 0;
+>>>>>>> improve-cris
 }
 .img{
-    max-width: 0;
-    min-height: 0; 
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 100px;
+margin-top: auto;
+margin-bottom: auto;
 display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
+opacity: 80%;
 } 
-.img1{
-    display: none;
-}
 
-/* .mainMenu{
-    width: 100%;
-    margin: 0;
-    justify-content: start;
-} */
-.containerNavBtn{
-    /* padding-top: 100px; */
-    /* margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px; */
-}
 ul{
     margin: auto;
     display:flex;
-    flex-wrap: wrap;
-    justify-content:flex-end;
-    /* margin-top: 50%; */
-
     }
 
-.mainMenu li{
+li{
     /* display: inline-block; */
     width: 50%;
      text-align: center;
-    margin-left: auto;
-    padding-left: 5%;
+    padding-left: 0 ;
+    padding-right: 30px;
         font-family: 'Courier New', Courier, monospace;
         /* float:right;  */
         margin: auto;
 }
 
-    .mainMenu a.btn{
-        /* display: block; */
-        /* margin-top: 44px; */
-        /* margin-left: 85px;  */
-        /* position: relative;
-        top: 4px;
-        left: 0px;
-        margin: 0px 35px; */
-
-    }
+.mainMenu a{
+    justify-content: center;
 }
+
+.mainMenu .ABOUT_ME{
+/* width: 10px;     */
+}
+
     /*.header img {
         width: 30%;
         float: left;
