@@ -184,28 +184,8 @@ padding-left: 90px;
  
 @media screen and (max-width: 450px) {
 body{
-<<<<<<< HEAD
-    /* margin: 10px;
-    
-padding: 0; */
-}
-<<<<<<< HEAD
-.img2{
-display: block;
-width: 70%;
-height: auto;
-margin: auto;
-opacity: 75%;
-=======
-.mainMenu{
-    position: relative;
-    top: 0;
-    right: 0;
->>>>>>> improve-cris
-=======
  margin: 0;
 padding: 0;
->>>>>>> improve-cris
 }
 .img{
     max-width: 100px;
