@@ -36,7 +36,8 @@ height: 100%;
     display: flex;
     color: #285AEB;
     /* border:solid 3px #285AEB; */
-    
+     margin-top: auto;
+    margin-bottom: auto;
     }
   
 .img {
@@ -50,7 +51,8 @@ justify-content: flex-start;
 }
 
 ul{
-
+ margin-top: auto;
+    margin-bottom: auto;
 margin: auto;
 display:flex;
 flex-wrap: wrap;
@@ -58,7 +60,8 @@ justify-content:flex-end;
 }
 
 li {
-
+    padding-top: 3%;
+    padding-bottom: 3%;
 /* margin-left: auto; */
 padding-left: 90px;
     font-family: 'Courier New', Courier, monospace;
@@ -77,12 +80,18 @@ padding-left: 90px;
     mix-blend-mode: multiply;
 
 }
-
+.btn .ABOUT_ME {
+    width: 130px;
+    /* height: auto; */
+}
 .mainMenu  a:hover {
     color: rgb(211, 7, 190);
     /* transform: translateY(3px); */
 }
-
+.containerNabBtn{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .content {
     height: 550px;
     background-color: white;
@@ -196,7 +205,7 @@ opacity: 80%;
 } 
 
 ul{
-    margin: auto;
+    margin: 0;
     display:flex;
     }
 
@@ -208,16 +217,20 @@ li{
     padding-right: 30px;
         font-family: 'Courier New', Courier, monospace;
         /* float:right;  */
-        margin: auto;
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0;
+        padding-bottom: 0;
 }
 
 .mainMenu a{
     justify-content: center;
 }
 
-.mainMenu .ABOUT_ME{
-/* width: 10px;     */
-}
+/* .mainMenu .ABOUT_ME{
+width: 10px;    
+} */
 
     /*.header img {
         width: 30%;
@@ -248,4 +261,3 @@ font-size: 15px;
     text-align: centre;
     
     } */
-    
