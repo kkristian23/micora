@@ -153,11 +153,16 @@ padding-left: 90px;
     background-color: #31333e;
     margin-top: 0px;
 }
+.fa-logo{
+    width: 5%;
+    height:100%;
+margin-left: auto;
+margin-right:1.5%;
+}
+.fa {
 
-.footer .fa {
-
-    width: 55px;
-    height: 54px;
+    width: 25px;
+    height: 27px;
     text-align: center;
     text-decoration: none;
     margin: 8px 10px;
@@ -171,27 +176,37 @@ padding-left: 90px;
     border-color:plum;
 }
 .fa-facebook {
-    padding: 16px;
+    padding: 12px;
     background: #3B5998;
     color: white;
-    font-size: 45px;
+    /* font-size: 30px; */
     position: relative;
-    top: 100px;
-    right: -50px;
+    /* top: 80px;
+    right: -20%; */
+
 }
 
 .fa-instagram {
-    padding: 11px;
-    font-size: 26px;
+    padding: 12px;
+    /* font-size: 26px; */
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: white;
     position: relative;
-    top: 27px;
-    right: 28px;
+    /* top: 2px;
+    right: 0; */
     border-radius: 15px;
 
+   
 }
+
+/* .fa-whatsapp{
+    background-color: green;
+    padding: 12px;
+    position: relative;
+    box-shadow:  .5px 0 0 14.5px green;
+} */
+
 /* .fa-tiktok {
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
