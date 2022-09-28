@@ -1,33 +1,47 @@
 *{
     border-radius: 40px;
-}
-body{
-    background-color: pink;
-    /* display: flexbox; */
-}
-.nav{
-width: auto;
-height: 120px;
-margin: auto auto .4%;
-background-color: aqua;
-padding: 10px;
-padding-left: 5%;
-/* mix-blend-mode: multiply; */
-}
-.logo{
-width: auto;
-height: 100%;
 
 }
-.box{
-    width: auto;
-    height: 555px;
-    background-color: white;
-}
-.into-box{
-    width: 100px;
-    height: 100px;
-    background-color: black;
+body{
+display: flexbox;
+max-width: 1200px;
 margin: auto;
-display: flex;
+}
+.container{
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    padding: 20px;
+
+}
+ul{
+    width: auto;
+    display: flex;
+
+}
+nav{
+    display: flex;
+    height: auto;
+    max-width:max-content;
+    margin: auto;
+    margin-right: 0;
+
+}
+.btn{
+margin-left: 70px;
+}
+.CONTACTS{
+    margin-right: 30px;
+}
+a{
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    
+}
+img{
+    width: 10.7%;
+    height: auto;
+align-items: center;
 }
