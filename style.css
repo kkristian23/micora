@@ -1,58 +1,72 @@
-*{
+* {
     border-radius: 40px;
 
 }
-body{
-display: flexbox;
-max-width: 1200px;
-margin: auto;
+
+body {
+    display: flexbox;
+    max-width: 1200px;
+    margin: auto;
 }
-.container{
+
+.container {
     height: auto;
     width: auto;
     background-color: pink;
     padding: 10px;
 
 }
-ul{
+
+ul {
     width: auto;
     display: flex;
     /* width: 100px; */
     margin: 0 50px;
 }
-li{
+
+li {
     display: flex;
     margin-left: 60px;
 
 }
-nav{
+
+nav {
     display: flex;
     height: auto;
     width: auto;
-    max-width:max-content;
+    max-width: max-content;
     margin: auto -20px;
     margin-right: 0;
 
 }
-.btn{
-}
-.CONTACTS{
+
+.btn {}
+
+.CONTACTS {
     margin-right: 20px;
 }
-.ABOUT_ME{
+
+.ABOUT_ME {
     white-space: nowrap;
 }
-a{
+
+.btn {
     font-size: 20px;
+    text-decoration: none;
 }
-.logo{
+.btn:hover{
+    transform: translateY(5px);
+    color: rgb(207, 18, 93);
+}
+.logo {
     display: flex;
-    padding-left: 70px;
-    
+    padding-left: 60px;
+
 }
-img{
-    width: 10.7%;
+
+img {
+    width: 100px;
     height: auto;
     mix-blend-mode: multiply;
-opacity: 80%;
+    opacity: 80%;
 }
