@@ -10,38 +10,49 @@ margin: auto;
 .container{
     height: auto;
     width: auto;
-    background-color: aquamarine;
-    padding: 20px;
+    background-color: pink;
+    padding: 10px;
 
 }
 ul{
     width: auto;
     display: flex;
+    /* width: 100px; */
+    margin: 0 50px;
+}
+li{
+    display: flex;
+    margin-left: 60px;
 
 }
 nav{
     display: flex;
     height: auto;
+    width: auto;
     max-width:max-content;
-    margin: auto;
+    margin: auto -20px;
     margin-right: 0;
 
 }
 .btn{
-margin-left: 70px;
 }
 .CONTACTS{
-    margin-right: 30px;
+    margin-right: 20px;
+}
+.ABOUT_ME{
+    white-space: nowrap;
 }
 a{
     font-size: 20px;
 }
 .logo{
     display: flex;
+    padding-left: 70px;
     
 }
 img{
     width: 10.7%;
     height: auto;
-align-items: center;
+    mix-blend-mode: multiply;
+opacity: 80%;
 }
