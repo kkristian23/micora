@@ -1,6 +1,12 @@
 * {
     border-radius: 40px;
 }
+/* html{
+  width: 100%;
+  height: 100%;
+  background-color: #333;  
+  font: 900 2em/2em 'Montserrat';
+} */
 body {
     /* display: flex; */
     margin:auto;
@@ -141,7 +147,7 @@ background-color:white;
     display: flex;
 }
 
-
+/* butonul ABOUT-ME */
 :root {
     --backgroundColor: rgba(246, 241, 209);
     --colorShadeA: rgb(106, 163, 137);
@@ -167,12 +173,7 @@ background-color:white;
 	border: 0px none;
 }
 
-/* html{
-  width: 100%;
-  height: 100%;
-  background-color: #333;  
-  font: 900 2em/2em 'Montserrat';
-} */
+
 
 .button{
 	display: flex;
@@ -181,7 +182,7 @@ background-color:white;
     padding: 20px;
 	/* position: absolute; */
 	overflow: hidden;
-    height:47px;
+    height:48px;
 	/* left: 40%;
 	top: 40%; */
   width: 200px;
@@ -221,3 +222,4 @@ background-color:white;
 .button:hover span{
 	transform:translate3d(0px,0px,-30px) rotateX(90deg);
 }
+/* sfarsit butonul ABOUT-ME */
