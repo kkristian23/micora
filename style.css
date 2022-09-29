@@ -82,16 +82,17 @@ b {
     font-size: 30px;
 } */
 .footer {
-    height: 245px;
+    height: auto;
+    width: auto;
     background-color: #31333e;
     margin-top: .25%;
     padding: 20px;
     border: solid 2px violet;
-    /* display: flex; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 .all-icons{
-    height: 100%;
-    float: right;
     padding: 10px;
 }
 .faceboook-color-background{
