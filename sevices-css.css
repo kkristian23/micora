@@ -87,6 +87,7 @@ img {
     background-color: rgb(213, 206, 255);
     display: flex;
     justify-content: center;
+    border:2px solid #b49ef3;
 }
 .box {
     width: 350px;
