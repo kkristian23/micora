@@ -96,6 +96,8 @@ img {
     width: auto;
     height: 490px;
     background-color: palevioletred;
+    display: flex;
+    justify-content: center;
 }
 .content3 {
     margin-top: .25%;
@@ -266,13 +268,9 @@ img {
 .button-s {
     display: flex;
     margin: 25px;
-    /* margin-bottom: 0; */
     padding: 20px;
-    position: absolute;
     overflow: hidden;
     height: 48px;
-    /* left: 40%;
-	top: 40%; */
     width: 200px;
     perspective: 400px;
     background-color: transparent;
