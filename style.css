@@ -184,4 +184,6 @@ img {
     vertical-align: middle;
     font-size: 1em;
     font-weight: 500;
-  }
+    font-family:monospace;
+  
+}
