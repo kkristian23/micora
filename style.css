@@ -1,7 +1,10 @@
 * {
     border-radius: 40px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 01def5aab7b5d64312da919762cc5e640d2d345c
 /* html{
   width: 100%;
   height: 100%;
@@ -11,6 +14,8 @@
 body {
     /* display: flex; */
     margin:auto;
+    margin-top: 5px;
+    background-color: rgb(255, 237, 215);
 
 }
 .container {
@@ -76,7 +81,7 @@ img {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    border: solid 3px rgb(162, 145, 148);
+    border: solid 3px rgb(157, 145, 162);
 }
 /* .about-me{
     background-color: blueviolet;
@@ -89,12 +94,13 @@ b {
     font-size: 30px;
 } */
 .footer {
+    /* opacity: 20%; */
     height: auto;
     width: auto;
     background-color: #31333e;
     margin-top: .25%;
     padding: 20px;
-    border: solid 2px violet;
+    border: solid 2px rgb(255, 255, 255);
     display: flex;
     justify-content: end;
     align-items: center;
