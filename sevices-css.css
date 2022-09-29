@@ -19,7 +19,7 @@ body {
 .container {
     height: auto;
     width: auto;
-    background: linear-gradient(301.23deg, #866ada 0, #ffffff 100%);
+    background: linear-gradient(301.23deg, #957ddb 0, #ffffff 100%);
 
     /* background-color: pink; */
     padding: 10px;
@@ -85,8 +85,8 @@ img {
 .content2 {
     margin-top: .25%;
     width: auto;
-    height: 490px;
-    background: linear-gradient(301.23deg, #866ada 0, #ffffff 100%);
+    height: 550px;
+    background: linear-gradient(301.23deg, #957ddb 0, #ffffff 100%);
     display: flex;
     justify-content: center;
     border:2px solid #b49ef3;
