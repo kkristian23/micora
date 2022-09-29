@@ -51,10 +51,12 @@ nav {
 }
 .logo {
     display: flex;
+    align-items: center;
     padding-left: 60px;
+    
 }
 img {
-    width: 100px;
+    width: 120px;
     height: auto;
     mix-blend-mode: multiply;
     opacity: 80%;
@@ -66,9 +68,19 @@ img {
     height: 550px;
     background-color: rgb(255, 255, 255);
     display: flex;
+    justify-content: center;
     border: solid 3px rgb(162, 145, 148);
 }
-
+/* .about-me{
+    background-color: blueviolet;
+    height: max-content;
+margin: 40px;
+margin-bottom: 10px; 
+padding: 5px 15px 5px 15px;   
+}
+b {
+    font-size: 30px;
+} */
 .footer {
     height: 210px;
     background-color: #31333e;
@@ -127,3 +139,82 @@ background-color:white;
     display: flex;
 }
 
+
+:root {
+    --backgroundColor: rgba(246, 241, 209);
+    --colorShadeA: rgb(106, 163, 137);
+    --colorShadeB: rgb(121, 186, 156);
+    --colorShadeC: rgb(150, 232, 195);
+    --colorShadeD: rgb(187, 232, 211);
+    --colorShadeE: rgb(205, 255, 232);
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+  * {
+    box-sizing: border-box;
+  }
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0px none;
+}
+
+/* html{
+  width: 100%;
+  height: 100%;
+  background-color: #333;  
+  font: 900 2em/2em 'Montserrat';
+} */
+
+.button{
+	display: flex;
+    margin: 30px;
+    margin-bottom: 0;
+    padding: 14px;
+	/* position: absolute; */
+	overflow: hidden;
+    height: 30px;
+	/* left: 40%;
+	top: 40%; */
+  width: 200px;
+	perspective:400px;
+	background-color: transparent;
+  
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.3)));
+  
+}
+.button span{
+	display: block;
+	position: relative;
+	transition:0.3s ease-in-out all;
+	transform-origin:50% 0;
+  transform-style:preserve-3d;
+	background-color: rgb(141, 126, 141);
+	color: white;
+  width: 100%;
+
+}
+.button span:after{
+	display: block;
+	content: attr(data-title);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition:0.3s ease-in-out all;
+	transform-origin:50% 0;
+	transform:translate3d(0px,105%,0px) rotateX(-90deg);
+	background-color: pink;
+    border-radius: 20px;
+	color: black;
+  width: 100%;
+}
+
+.button:hover span{
+	transform:translate3d(0px,0px,-30px) rotateX(90deg);
+}
