@@ -1,10 +1,7 @@
 * {
     border-radius: 40px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 01def5aab7b5d64312da919762cc5e640d2d345c
 /* html{
   width: 100%;
   height: 100%;
@@ -13,60 +10,70 @@
 } */
 body {
     /* display: flex; */
-    margin:auto;
+    margin: auto;
     margin-top: 5px;
     background-color: rgb(255, 237, 215);
 
 }
+
 .container {
-    height:auto;
-    width:auto;
+    height: auto;
+    width: auto;
     background-color: pink;
     padding: 10px;
     /* display: flex; */
     border: solid 3px rgb(255, 135, 217);
 }
+
 ul {
     width: auto;
     display: flex;
-    
+
 }
+
 li {
     display: flex;
     margin-left: 60px;
-    
+
 
 }
+
 nav {
     display: flex;
     /* float: right; */
     height: auto;
     width: auto;
     margin: auto
-    /* margin-right: 0; */
+        /* margin-right: 0; */
 
 }
+
 .CONTACTS {
     margin-right: 20px;
 }
+
 .ABOUT_ME {
     white-space: nowrap;
 }
+
 .btn {
     color: rgb(0, 0, 0);
     font-size: 20px;
     text-decoration: none;
 }
-.btn:hover{
+
+.btn:hover {
     transform: translateY(5px);
     color: rgb(207, 18, 93);
 }
+
 .logo {
     display: flex;
     align-items: center;
     padding-left: 60px;
-    
+
 }
+
 img {
     width: 120px;
     height: auto;
@@ -74,7 +81,7 @@ img {
     opacity: 80%;
 }
 
-.content1{
+.content1 {
     margin-top: .25%;
     width: auto;
     height: 550px;
@@ -83,18 +90,26 @@ img {
     justify-content: center;
     border: solid 3px rgb(157, 145, 162);
 }
-/* .about-me{
-    background-color: blueviolet;
-    height: max-content;
-margin: 40px;
-margin-bottom: 10px; 
-padding: 5px 15px 5px 15px;   
+
+.content2 {
+    margin-top: .25%;
+    width: auto;
+    height: 490px;
+    background-color: palevioletred;
 }
-b {
-    font-size: 30px;
-} */
+.content3 {
+    margin-top: .25%;
+    width: auto;
+    height: 490px;
+    background-color: rgb(29, 3, 12);
+}
+.content4 {
+    margin-top: .25%;
+    width: auto;
+    height: 490px;
+    background-color: rgb(198, 40, 93);
+}
 .footer {
-    /* opacity: 20%; */
     height: auto;
     width: auto;
     background-color: #31333e;
@@ -105,55 +120,54 @@ b {
     justify-content: end;
     align-items: center;
 }
-.all-icons{
+
+.all-icons {
     padding: 10px;
 }
-.faceboook-color-background{
+
+.faceboook-color-background {
     border-radius: 70px;
     width: 50px;
     height: 50px;
-background-color: rgb(242, 242, 243);
-float: right; 
-display: flex;
+    background-color: rgb(242, 242, 243);
+    float: right;
+    display: flex;
 
 
 }
-.fb img{
+.fb img {
     width: 50px;
     height: 50px;
     margin: auto;
 }
-.insta img{
+.insta img {
     width: 50px;
     height: 47px;
     margin: auto;
 }
-
-.insta{
+.insta {
     border-radius: 60%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: auto;
     height: auto;
-background-color:white;
+    background-color: white;
     float: right;
     display: flex;
-
 }
-.whatsapp-bacround-color{
+.whatsapp-bacround-color {
     background-color: white;
     border-radius: 70%;
     width: auto;
     height: auto;
-        float: right;
+    float: right;
 }
-.wap img{
+.wap img {
     width: 48px;
     height: 46px;
     display: flex;
 }
-
 /* butonul ABOUT-ME */
 :root {
     --backgroundColor: rgba(246, 241, 209);
@@ -162,71 +176,134 @@ background-color:white;
     --colorShadeC: rgb(150, 232, 195);
     --colorShadeD: rgb(187, 232, 211);
     --colorShadeE: rgb(205, 255, 232);
-  }
-  
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-  * {
-    box-sizing: border-box;
-  }
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-
-*{
-	margin: 0;
-	padding: 0;
-	border: 0px none;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
 
+* {
+    box-sizing: border-box;
+}
 
-.button{
-	display: flex;
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px none;
+}
+.button-a {
+    display: flex;
     margin: 25px;
     margin-bottom: 0;
     padding: 20px;
-	/* position: absolute; */
-	overflow: hidden;
-    height:48px;
-	/* left: 40%;
+    /* position: absolute; */
+    overflow: hidden;
+    height: 48px;
+    /* left: 40%;
 	top: 40%; */
-  width: 200px;
-	perspective:400px;
-	background-color: transparent;
-  
-  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.3)));
-  
+    width: 200px;
+    perspective: 400px;
+    background-color: transparent;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
 }
-.button span{
+.button-a span {
     font-size: 25px;
-	display: block;
-	position: relative;
-	transition:0.3s ease-in-out all;
-	transform-origin:50% 0;
-  transform-style:preserve-3d;
-	background-color: rgb(141, 126, 141);
-	color: white;
-  width: 100%;
-
+    display: block;
+    position: relative;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+    background-color: rgb(141, 126, 141);
+    color: white;
+    width: 100%;
 }
-.button span:after{
-	display: block;
-	content: attr(data-title);
-	position: absolute;
-	left: 0;
-	top: 0;
-	transition:0.3s ease-in-out all;
-	transform-origin:50% 0;
-	transform:translate3d(0px,105%,0px) rotateX(-90deg);
-	background-color: pink;
+.button-a span:after {
+    display: block;
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+    background-color: pink;
     border-radius: 20px;
-	color: black;
-  width: 100%;
+    color: black;
+    width: 100%;
 }
-
-.button:hover span{
-	transform:translate3d(0px,0px,-30px) rotateX(90deg);
+.button-a:hover span {
+    transform: translate3d(0px, 0px, -30px) rotateX(90deg);
 }
 /* sfarsit butonul ABOUT-ME */
+
+:root {
+    --backgroundColor: rgba(246, 241, 209);
+    --colorShadeA: rgb(106, 163, 137);
+    --colorShadeB: rgb(121, 186, 156);
+    --colorShadeC: rgb(150, 232, 195);
+    --colorShadeD: rgb(187, 232, 211);
+    --colorShadeE: rgb(205, 255, 232);
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+* {
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px none;
+}
+.button-s {
+    display: flex;
+    margin: 25px;
+    /* margin-bottom: 0; */
+    padding: 20px;
+    position: absolute;
+    overflow: hidden;
+    height: 48px;
+    /* left: 40%;
+	top: 40%; */
+    width: 200px;
+    perspective: 400px;
+    background-color: transparent;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
+}
+.button-s span {
+    font-size: 25px;
+    display: block;
+    position: relative;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+    background-color: rgb(141, 126, 141);
+    color: white;
+    width: 100%;
+}
+.button-s span:after {
+    display: block;
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out all;
+    transform-origin: 50% 0;
+    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+    background-color: pink;
+    border-radius: 20px;
+    color: black;
+    width: 100%;
+}
+.button-s:hover span {
+    transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+}
+
