@@ -86,6 +86,7 @@ b {
     background-color: #31333e;
     margin-top: .25%;
     padding: 20px;
+    border: solid 2px violet;
     /* display: flex; */
 }
 .all-icons{
