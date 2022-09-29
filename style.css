@@ -1,35 +1,30 @@
 * {
     border-radius: 40px;
-
 }
-
 body {
     display: flexbox;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-}
 
+}
 .container {
     height: auto;
     width: auto;
     background-color: pink;
     padding: 10px;
-
+    display: flex;
 }
-
 ul {
     width: auto;
     display: flex;
     /* width: 100px; */
     margin: 0 50px;
 }
-
 li {
     display: flex;
     margin-left: 60px;
 
 }
-
 nav {
     display: flex;
     height: auto;
@@ -37,20 +32,15 @@ nav {
     max-width: max-content;
     margin: auto -20px;
     margin-right: 0;
-
 }
-
-.btn {}
-
 .CONTACTS {
     margin-right: 20px;
 }
-
 .ABOUT_ME {
     white-space: nowrap;
 }
-
 .btn {
+    color: blueviolet;
     font-size: 20px;
     text-decoration: none;
 }
@@ -61,12 +51,77 @@ nav {
 .logo {
     display: flex;
     padding-left: 60px;
-
 }
-
 img {
     width: 100px;
     height: auto;
     mix-blend-mode: multiply;
     opacity: 80%;
 }
+
+.content1{
+    margin-top: .25%;
+    width: auto;
+    height: 550px;
+    background-color: aqua;
+    display: flex;
+}
+
+.footer {
+    height: 210px;
+    background-color: #31333e;
+    margin-top: .25%;
+    padding: 20px;
+    /* display: flex; */
+}
+.all-icons{
+    height: 100%;
+    float: right;
+    padding: 10px;
+}
+.faceboook-color-background{
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+background-color: rgb(242, 242, 243);
+float: right; 
+display: flex;
+
+
+}
+.fb img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.insta img{
+    width: 50px;
+    height: 45px;
+    margin: auto;
+}
+
+.insta{
+    border-radius: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+background-color:white;
+    float: right;
+    display: flex;
+
+}
+.whatsapp-bacround-color{
+    background-color: white;
+    border-radius: 70%;
+    width: auto;
+    height: auto;
+        float: right;
+}
+.wap img{
+    width: 48px;
+    height: 46px;
+    display: flex;
+}
+
