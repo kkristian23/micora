@@ -3,8 +3,7 @@
 }
 body {
     display: flexbox;
-    max-width: 1000px;
-    margin: auto;
+    margin:auto;
 
 }
 .container {
@@ -96,7 +95,7 @@ display: flex;
 }
 .insta img{
     width: 50px;
-    height: 45px;
+    height: 47px;
     margin: auto;
 }
 
