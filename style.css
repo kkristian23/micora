@@ -91,14 +91,7 @@ img {
     border: solid 3px rgb(157, 145, 162);
 }
 
-.content2 {
-    margin-top: .25%;
-    width: auto;
-    height: 490px;
-    background-color: rgb(195, 157, 170);
-    display: flex;
-    justify-content: center;
-}
+
 .content3 {
     margin-top: .25%;
     width: auto;
@@ -170,140 +163,6 @@ img {
     height: 46px;
     display: flex;
 }
-/* butonul ABOUT-ME */
-:root {
-    --backgroundColor: rgba(246, 241, 209);
-    --colorShadeA: rgb(106, 163, 137);
-    --colorShadeB: rgb(121, 186, 156);
-    --colorShadeC: rgb(150, 232, 195);
-    --colorShadeD: rgb(187, 232, 211);
-    --colorShadeE: rgb(205, 255, 232);
-}
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-
-* {
-    box-sizing: border-box;
-}
-
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0px none;
-}
-.button-a {
-    display: flex;
-    margin: 25px;
-    margin-bottom: 0;
-    padding: 20px;
-    /* position: absolute; */
-    overflow: hidden;
-    height: 48px;
-    /* left: 40%;
-	top: 40%; */
-    width: 200px;
-    perspective: 400px;
-    background-color: transparent;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
-}
-.button-a span {
-    font-size: 25px;
-    display: block;
-    position: relative;
-    transition: 0.3s ease-in-out all;
-    transform-origin: 50% 0;
-    transform-style: preserve-3d;
-    background-color: rgb(141, 126, 141);
-    color: white;
-    width: 100%;
-}
-.button-a span:after {
-    display: block;
-    content: attr(data-title);
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: 0.3s ease-in-out all;
-    transform-origin: 50% 0;
-    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-    background-color: pink;
-    border-radius: 20px;
-    color: black;
-    width: 100%;
-}
-.button-a:hover span {
-    transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-}
-/* sfarsit butonul ABOUT-ME */
-
-:root {
-    --backgroundColor: rgba(246, 241, 209);
-    --colorShadeA: rgb(106, 163, 137);
-    --colorShadeB: rgb(121, 186, 156);
-    --colorShadeC: rgb(150, 232, 195);
-    --colorShadeD: rgb(187, 232, 211);
-    --colorShadeE: rgb(205, 255, 232);
-}
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-* {
-    box-sizing: border-box;
-}
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-* {
-    margin: 0;
-    padding: 0;
-    border: 0px none;
-}
-.button-s {
-    display: flex;
-    margin: 25px;
-    padding: 20px;
-    overflow: hidden;
-    height: 48px;
-    width: 200px;
-    perspective: 400px;
-    background-color: transparent;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
-}
-.button-s span {
-    font-size: 25px;
-    display: block;
-    position: relative;
-    transition: 0.3s ease-in-out all;
-    transform-origin: 50% 0;
-    transform-style: preserve-3d;
-    background-color: rgb(141, 126, 141);
-    color: white;
-    width: 100%;
-}
-.button-s span:after {
-    display: block;
-    content: attr(data-title);
-    position: absolute;
-    left: 0;
-    top: 0;
-    transition: 0.3s ease-in-out all;
-    transform-origin: 50% 0;
-    transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-    background-color: pink;
-    border-radius: 20px;
-    color: black;
-    width: 100%;
-}
-.button-s:hover span {
-    transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-}
 
 .box {
     width: 350px;
@@ -315,6 +174,7 @@ img {
     position: absolute;
     display: table;
     z-index: 1;
+    padding: 2px;
     margin-top: 30px;
     filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
   }
