@@ -84,7 +84,7 @@ img {
     margin-top: .25%;
     width: auto;
     height: 490px;
-    background-color: rgb(213, 206, 255);
+    background: linear-gradient(301.23deg, #866ada 0, #ffffff 100%);
     display: flex;
     justify-content: center;
     border:2px solid #b49ef3;
