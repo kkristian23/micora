@@ -19,7 +19,9 @@ body {
 .container {
     height: auto;
     width: auto;
-    background-color: pink;
+    background: linear-gradient(301.23deg, #b459a3 0, #ffffff 100%);
+
+    /* background-color: pink; */
     padding: 10px;
     /* display: flex; */
     border: solid 3px rgb(255, 135, 217);
@@ -107,7 +109,7 @@ img {
 .footer {
     height: auto;
     width: auto;
-    background-color: #31333e;
+    background-color: #616476;
     margin-top: .25%;
     padding: 20px;
     border: solid 2px rgb(255, 255, 255);

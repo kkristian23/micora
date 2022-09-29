@@ -19,7 +19,9 @@ body {
 .container {
     height: auto;
     width: auto;
-    background-color: pink;
+    background: linear-gradient(301.23deg, #866ada 0, #ffffff 100%);
+
+    /* background-color: pink; */
     padding: 10px;
     /* display: flex; */
     border: solid 3px rgb(255, 135, 217);
@@ -89,6 +91,7 @@ img {
     justify-content: center;
     border:2px solid #b49ef3;
 }
+
 .box {
     width: 350px;
     height: 30px;
@@ -111,3 +114,63 @@ img {
     font-weight: 500;
     font-family:monospace;
   }
+
+  .footer {
+    height: auto;
+    width: auto;
+    background-color: #616476;
+    margin-top: .25%;
+    padding: 20px;
+    border: solid 2px rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.all-icons {
+    padding: 10px;
+}
+
+.faceboook-color-background {
+    border-radius: 70px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(242, 242, 243);
+    float: right;
+    display: flex;
+
+
+}
+.fb img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.insta img {
+    width: 50px;
+    height: 47px;
+    margin: auto;
+}
+.insta {
+    border-radius: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    float: right;
+    display: flex;
+}
+.whatsapp-bacround-color {
+    background-color: white;
+    border-radius: 70%;
+    width: auto;
+    height: auto;
+    float: right;
+}
+.wap img {
+    width: 48px;
+    height: 46px;
+    display: flex;
+}
