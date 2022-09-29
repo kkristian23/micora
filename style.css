@@ -176,12 +176,12 @@ background-color:white;
 
 .button{
 	display: flex;
-    margin: 30px;
+    margin: 25px;
     margin-bottom: 0;
-    padding: 14px;
+    padding: 20px;
 	/* position: absolute; */
 	overflow: hidden;
-    height: 30px;
+    height:47px;
 	/* left: 40%;
 	top: 40%; */
   width: 200px;
@@ -192,6 +192,7 @@ background-color:white;
   
 }
 .button span{
+    font-size: 25px;
 	display: block;
 	position: relative;
 	transition:0.3s ease-in-out all;
