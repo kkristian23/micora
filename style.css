@@ -12,6 +12,7 @@ body {
     background-color: pink;
     padding: 10px;
     /* display: flex; */
+    border: solid 3px rgb(255, 135, 217);
 }
 ul {
     width: auto;
@@ -63,8 +64,9 @@ img {
     margin-top: .25%;
     width: auto;
     height: 550px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     display: flex;
+    border: solid 3px rgb(162, 145, 148);
 }
 
 .footer {
