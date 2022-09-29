@@ -2,35 +2,36 @@
     border-radius: 40px;
 }
 body {
-    display: flexbox;
+    /* display: flex; */
     margin:auto;
 
 }
 .container {
-    height: auto;
-    width: auto;
+    height:auto;
+    width:auto;
     background-color: pink;
     padding: 10px;
-    display: flex;
+    /* display: flex; */
 }
 ul {
     width: auto;
     display: flex;
-    /* width: 100px; */
-    margin: 0 50px;
+    
 }
 li {
     display: flex;
     margin-left: 60px;
+    
 
 }
 nav {
     display: flex;
+    /* float: right; */
     height: auto;
     width: auto;
-    max-width: max-content;
-    margin: auto -20px;
-    margin-right: 0;
+    margin: auto
+    /* margin-right: 0; */
+
 }
 .CONTACTS {
     margin-right: 20px;
