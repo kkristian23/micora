@@ -1,0 +1,82 @@
+* {
+    border-radius: 40px;
+}
+
+/* html{
+  width: 100%;
+  height: 100%;
+  background-color: #333;  
+  font: 900 2em/2em 'Montserrat';
+} */
+body {
+    /* display: flex; */
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(255, 237, 215);
+
+}
+
+.container {
+    height: auto;
+    width: auto;
+    background-color: pink;
+    padding: 10px;
+    /* display: flex; */
+    border: solid 3px rgb(255, 135, 217);
+}
+
+ul {
+    width: auto;
+    display: flex;
+
+}
+
+li {
+    display: flex;
+    margin-left: 60px;
+
+
+}
+
+nav {
+    display: flex;
+    /* float: right; */
+    height: auto;
+    width: auto;
+    margin: auto
+        /* margin-right: 0; */
+
+}
+
+.CONTACTS {
+    margin-right: 20px;
+}
+
+.ABOUT_ME {
+    white-space: nowrap;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: translateY(5px);
+    color: rgb(207, 18, 93);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+img {
+    width: 120px;
+    height: auto;
+    mix-blend-mode: multiply;
+    opacity: 80%;
+}

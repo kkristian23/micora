@@ -95,7 +95,7 @@ img {
     margin-top: .25%;
     width: auto;
     height: 490px;
-    background-color: palevioletred;
+    background-color: rgb(195, 157, 170);
     display: flex;
     justify-content: center;
 }
