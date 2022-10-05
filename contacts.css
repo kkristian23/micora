@@ -78,7 +78,7 @@ iframe{
 .gmap_canvas{
     overflow:hidden;
     background:none;
-    height: 600px;;
+    height: 500px;;
     width:auto;
     border: 2px solid pink;
 }
