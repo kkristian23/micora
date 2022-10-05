@@ -180,7 +180,7 @@ img {
     
     text-align: center;
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     position: absolute;
     display: table;
     z-index: 1;
@@ -200,7 +200,7 @@ img {
     vertical-align: middle;
     font-size: 1em;
     font-weight: 500;
-    font-family:monospace;
-    color: linear-gradient (301.23deg, #f5abe7 0, #ffffff 100%) ;
+    /* font-family:monospace; */
+    /* color: linear-gradient (301.23deg, #f5abe7 0, #ffffff 100%) ; */
   
 }

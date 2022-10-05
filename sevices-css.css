@@ -19,14 +19,14 @@ body {
 .container {
     height: auto;
     width: auto;
-    /* background: linear-gradient(301.23deg, #957ddb 0, #ffffff 100%); */
-    background-color: #FFDEE9;
-    background-image: linear-gradient(180deg, #FFDEE9 0%, #B5FFFC 100%);
+    /* background: linear-gradient(301.23deg, #f5abe7 0, #ffffff 100%); */
+    background-color: #ffcfff;
+    background-image: linear-gradient(180deg, #ffcfff 0%, #97D9E1 100%);
     
     /* background-color: pink; */
     padding: 10px;
     /* display: flex; */
-    border-top: solid 3px rgb(105, 70, 222);
+    border-top: solid 3px rgb(255, 135, 217);
 }
 
 ul {
@@ -88,27 +88,25 @@ img {
     margin-top: .25%;
     width: auto;
     height: 550px;
-    /* background: linear-gradient(301.23deg, #957ddb 0, #ffffff 100%); */
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    /* background: linear-gradient(301.23deg, #f5abe7 0, #ffffff 100%); */
+    background-color: #ffcfff;
+    background-image: linear-gradient(0deg, #ffcfff 0%, #97D9E1 100%);
     
     display: flex;
     justify-content: center;
-    border-bottom:2px solid #b49ef3;
-    border-top:2px solid #b49ef3;
-
+    border-bottom: solid 2px rgb(157, 145, 162);
 }
 
 .box {
     width: 350px;
     height: 30px;
-    /* background: linear-gradient(301.23deg, #9d7ef9 0, #f5e3ff 100%); */
-    background-color: #b5fffc;
-    background-image: linear-gradient(90deg, #b5fffc 9%, #f1afd5 42%, #f1afd5 62%, #B5FFFC 93%);
+    /* background: linear-gradient(301.23deg, #b459a3 0, #ffffff 100%); */
+    background-color: #97D9E1;
+    background-image: linear-gradient(270deg, #97D9E1 0%, #ffcfff 50%, #97d9e1 100%);
     
     text-align: center;
     font-size: 25px;
-    color: #fff;
+    /* color: rgb(255, 255, 255); */
     position: absolute;
     display: table;
     z-index: 1;
@@ -116,9 +114,8 @@ img {
     margin-top: 30px;
     border-left: 5px solid pink;
     border-right: 5px solid pink;
-    border-top: 1px solid pink;
-    border-bottom: 1px solid pink;
-    /* filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.25)); */
+    border-top: .5px solid pink;
+    border-bottom: .5px solid pink;
   }
   
   .box .el {
