@@ -70,6 +70,17 @@ img {
     justify-content: center;
     border-bottom: solid 2px rgb(157, 145, 162);
 }
+/* .mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+} */
+.gmap_canvas{
+    overflow:hidden;
+    background:none;
+    height:500px;width:600px;
+}
 .content3 {
     margin-top: .25%;
     width: auto;
