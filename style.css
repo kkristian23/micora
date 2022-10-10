@@ -14,13 +14,9 @@ body {
 .container {
     height: auto;
     width: auto;
-    /* background: linear-gradient(301.23deg, #f5abe7 0, #ffffff 100%); */
     background-color: #ffcfff;
     background-image: linear-gradient(180deg, #ffcfff 0%, #97D9E1 100%);
-    
-    /* background-color: pink; */
     padding: 10px;
-    /* display: flex; */
     border-top: solid 3px rgb(255, 135, 217);
 }
 ul {
@@ -33,10 +29,10 @@ li {
 }
 nav {
     display: flex;
-    /* float: right; */
-    height: auto;
-    width: auto;
-    margin: auto;
+    position: relative;
+    width: 33em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .CONTACTS {
     margin-right: 20px;
@@ -55,8 +51,9 @@ nav {
 }
 .logo {
     display: flex;
-    align-items: center;
-    padding-left: 60px;
+    margin-left: 60px;
+    width: auto;
+
 }
 img {
     width: 120px;

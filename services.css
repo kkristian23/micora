@@ -29,9 +29,10 @@ li {
 }
 nav {
     display: flex;
-    height: auto;
-    width: auto;
-    margin: auto 315.28px auto auto;
+    position: relative;
+    width: 33em;
+    margin-left: auto;
+    margin-right: auto;
 }
 .CONTACTS {
     margin-right: 20px;
@@ -50,8 +51,8 @@ nav {
 }
 .logo {
     display: flex;
-    align-items: center;
-    padding-left: 60px;
+    margin-left: 60px;
+    width: auto;
 }
 img {
     width: 120px;
