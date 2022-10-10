@@ -78,7 +78,30 @@ img {
     justify-content: center;
     border-bottom: solid 2px rgb(157, 145, 162);
 }
-
+.box {
+    width: 350px;
+    height: 30px;
+    background-color: #97D9E1;
+    background-image: linear-gradient(270deg, #97D9E1 0%, #ffcfff 50%, #97d9e1 100%);
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    display: table;
+    z-index: 1;
+    padding: 2px;
+    margin-top: 30px;
+    border: .5px 5px .5px 5px solid pink;
+    border-left: 5px solid pink;
+    border-right: 5px solid pink;
+    border-top: .5px solid pink;
+    border-bottom: .5px solid pink;
+}
+.box .el {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1em;
+    font-weight: 500;
+  }
 .content3 {
     margin-top: .25%;
     width: auto;
@@ -94,17 +117,11 @@ img {
 }
 
 .footer {
-    /* height: auto; */
-    /* width: auto; */
     background-color: black;
-    /* margin-top: .25%; */
     padding: 20px;
     border: solid 2px rgb(255, 255, 255);
     display: flex;
-    /* justify-content: end; */
-    /* align-items: center; */
 }
-
 .all-icons {
     padding: 10px;
     margin: auto;
@@ -144,6 +161,8 @@ p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
-    margin-top: 35px;
     margin-bottom: 5px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 45px;
 }
