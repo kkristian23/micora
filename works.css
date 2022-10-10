@@ -29,13 +29,10 @@ li {
 }
 nav {
     display: flex;
-    /* float: right; */
-    height: auto;
-    width: auto;
-    margin: auto;
-}
-.CONTACTS {
-    margin-right: 20px;
+    position: relative;
+    margin-left: auto;
+    padding: .2%;
+    padding-right: 10%;
 }
 .ABOUT_ME {
     white-space: nowrap;
@@ -51,8 +48,7 @@ nav {
 }
 .logo {
     display: flex;
-    align-items: center;
-    padding-left: 60px;
+    margin-left: 60px;
 }
 img {
     width: 120px;
@@ -64,10 +60,8 @@ img {
     margin-top: .25%;
     width: auto;
     height: 550px;
-    /* background: linear-gradient(301.23deg, #f5abe7 0, #ffffff 100%); */
     background-color: #ffcfff;
     background-image: linear-gradient(0deg, #ffcfff 0%, #97D9E1 100%);
-    
     display: flex;
     justify-content: center;
     border-bottom: solid 2px rgb(157, 145, 162);
