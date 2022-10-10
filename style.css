@@ -1,6 +1,7 @@
 * {
     border-radius: 40px;
 }
+
 /* html{
   width: 100%;
   height: 100%;
@@ -11,6 +12,7 @@ body {
     margin-top: 5px;
     background-color: rgb(255, 237, 215);
 }
+
 .container {
     height: auto;
     width: auto;
@@ -19,14 +21,17 @@ body {
     padding: 10px;
     border-top: solid 3px rgb(255, 135, 217);
 }
+
 ul {
     width: auto;
     display: flex;
 }
+
 li {
     display: flex;
     margin-left: 60px;
 }
+
 nav {
     display: flex;
     position: relative;
@@ -34,29 +39,35 @@ nav {
     padding: .2%;
     padding-right: 10%;
 }
+
 .ABOUT_ME {
     white-space: nowrap;
 }
+
 .btn {
     color: rgb(0, 0, 0);
     font-size: 20px;
     text-decoration: none;
 }
+
 .btn:hover {
     transform: translateY(5px);
     color: rgb(207, 18, 93);
 }
+
 .logo {
     display: flex;
     margin-left: 60px;
     width: auto;
 }
+
 img {
     width: 120px;
     height: auto;
     mix-blend-mode: multiply;
     opacity: 80%;
 }
+
 .content1 {
     margin-top: .25%;
     width: auto;
@@ -67,93 +78,72 @@ img {
     justify-content: center;
     border-bottom: solid 2px rgb(157, 145, 162);
 }
+
 .content3 {
     margin-top: .25%;
     width: auto;
     height: 490px;
     background-color: rgb(29, 3, 12);
 }
+
 .content4 {
     margin-top: .25%;
     width: auto;
     height: 490px;
     background-color: rgb(198, 40, 93);
 }
+
 .footer {
-    height: auto;
-    width: auto;
-    background-color: #616476;
-    margin-top: .25%;
+    /* height: auto; */
+    /* width: auto; */
+    background-color: black;
+    /* margin-top: .25%; */
     padding: 20px;
     border: solid 2px rgb(255, 255, 255);
     display: flex;
-    justify-content: end;
-    align-items: center;
+    /* justify-content: end; */
+    /* align-items: center; */
 }
+
 .all-icons {
     padding: 10px;
-}
-.faceboook-color-background {
-    border-radius: 70px;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(242, 242, 243);
-    float: right;
-    display: flex;
-}
-.fb img {
-    width: 50px;
-    height: 50px;
     margin: auto;
+    font-size: 30px;
 }
-.insta img {
-    width: 50px;
-    height: 47px;
-    margin: auto;
-}
-.insta {
-    border-radius: 60%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: auto;
-    height: auto;
-    background-color: white;
-    float: right;
-    display: flex;
-}
-.whatsapp-bacround-color {
-    background-color: white;
-    border-radius: 70%;
-    width: auto;
-    height: auto;
-    float: right;
-}
-.wap img {
-    width: 48px;
-    height: 46px;
-    display: flex;
-}
-.box {
-    width: 350px;
-    height: 30px;
-    background-color: #97D9E1;
-    background-image: linear-gradient(270deg, #97D9E1 0%, #ffcfff 50%, #97d9e1 100%);
+.fa {
+    padding: 12px 11px;
+    width: 30px;
     text-align: center;
-    font-size: 25px;
-    position: absolute;
-    display: table;
-    z-index: 1;
-    padding: 2px;
-    margin-top: 30px;
-    border-left: 5px solid pink;
-    border-right: 5px solid pink;
-    border-top: .5px solid pink;
-    border-bottom: .5px solid pink;
-  }
-  .box .el {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 1em;
-    font-weight: 500;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-right: 37px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-instagram {
+    background: white;
+    color: black;
+}
+.fa-phone {
+    background: white;
+    color: black;
+}
+.fa-whatsapp {
+    background: white;
+    color: black;
+    margin-right: 0;
+
+}
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    margin-top: 35px;
+    margin-bottom: 5px;
 }
