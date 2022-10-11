@@ -2,12 +2,10 @@
     border-radius: 40px;
 }
 
-/* html{
+html{
   width: 100%;
   height: 100%;
-  background-color: #333;  
-  font: 900 2em/2em 'Montserrat';
-} */
+}
 body {
     margin-top: 5px;
     background-color: rgb(255, 237, 215);
@@ -81,7 +79,7 @@ img {
 .content2 {
     margin-top: .1%;
     width: auto;
-    height: 550px;
+    height: 1550px;
     background-color: #ffcfff;
     background-image: linear-gradient(180deg, #ffcfff 0%, #97D9E1 100%);
     display: flex;
@@ -134,6 +132,7 @@ img {
     border: solid 2px rgb(255, 255, 255);
     display: flex;
     position: relative;
+    /* margin-bottom: 0; */
 }
 .all-icons {
     padding: 10px;
