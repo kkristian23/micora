@@ -78,11 +78,23 @@ img {
     justify-content: center;
     border-bottom: solid 2px rgb(157, 145, 162);
 }
+.content2 {
+    margin-top: .1%;
+    width: auto;
+    height: 550px;
+    background-color: #ffcfff;
+    background-image: linear-gradient(180deg, #ffcfff 0%, #97D9E1 100%);
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px rgb(157, 145, 162);
+    border-top: solid 2px rgb(157, 145, 162);
+
+}
 .box {
     width: 350px;
     height: 30px;
     background-color: #97D9E1;
-    background-image: linear-gradient(270deg, #97D9E1 0%, #ffcfff 50%, #97d9e1 100%);
+    background-image: linear-gradient(270deg, #ffcfff 0%, #97D9E1 50%, #ffcfff 100%);
     text-align: center;
     font-size: 25px;
     position: absolute;
