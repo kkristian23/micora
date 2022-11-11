@@ -8,6 +8,7 @@
   font: 900 2em/2em 'Montserrat';
 } */
 body {
+    margin: 0;
     margin-top: 5px;
     background-color: rgb(255, 237, 215);
 }
