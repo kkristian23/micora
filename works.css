@@ -136,10 +136,14 @@ position:absolute;
 left: 41%;
 top: 42%;
   }
-
+.allphoto{
+    position:absolute;
+    left: 35%;
+    top: 36%;
+}
   .textmachiaj{
     position:absolute;
-left: 60%;
+left: 46%;
 top: 70%;
   }
 .texthair{
