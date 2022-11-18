@@ -71,6 +71,7 @@ padding-top: 3%;
 }
 .ph-vi{
     position: relative;
+    top: 10%;
 width: auto;
 height: 45%;
 display: grid;
