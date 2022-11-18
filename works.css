@@ -60,7 +60,7 @@ img {
 .content1 {
     margin-top: .25%;
     width: auto;
-    height: 550px;
+    height: 1200px;
 padding-top: 3%;
     background-color: #ffcfff;
     background-image: linear-gradient(0deg, #ffcfff 0%, #97D9E1 100%);
@@ -72,24 +72,20 @@ padding-top: 3%;
 .ph-vi{
     position: relative;
 width: auto;
-height: 100%;
+height: 45%;
 display: grid;
 
 }
 .photo{
     position: absolute ;
-left: 6%;
+left: 10%;
     width: 35%;
 height: 88%;
-border-radius: 2% 100% 2% 100%;
 border: 0;
 background: rgb(255, 255, 255);
 }
 .photo img{
-    /* position: relative ; */
-
     mix-blend-mode: multiply;
-    border-radius: 2% 100% 2% 100%;
     width: 101%;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -97,82 +93,69 @@ background: rgb(255, 255, 255);
 .photo:hover{
     opacity: 60%;
     color: transparent;
-
 }
 .other{
-    /* position: absolute ; */
-
+position: absolute;
+top: 100%;
+left: 35%;
     width: 35%;
     height: 80%;
-border-radius: 2% 100% 2% 100%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 border: 0;
 background: rgb(255, 255, 255);
-margin: auto;
-margin-top: 0;
-margin-bottom: 0;
 }
 .other:hover{
     opacity: 60%;
 }
 .other img{
     mix-blend-mode: multiply;
-    border-radius: 2% 100% 2% 100%;
     width: 100%;
     height: 99%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-  .text {
-    /* white-space: nowrap;  */
+.allphoto{
     color: white;
     font-size: 50px;
-    position: absolute;
-    /* overflow: hidden; */
-    top: 50%;
-    left: 50%;
-    /* transform: translate(-50%, -50%); */
-        transform: rotate(45deg);
-position:absolute;
-left: 41%;
-top: 42%;
-  }
-.allphoto{
-    position:absolute;
-    left: 35%;
-    top: 36%;
-}
-  .textmachiaj{
-    position:absolute;
-left: 46%;
-top: 70%;
-  }
-.texthair{
-    position:absolute;
+  position: absolute;
+    top: 45%;
     left: 15%;
-    top: 17%;
 }
-.video{
+.textmachiaj {
+    color: white;
+    font-size: 50px;
+  position: absolute;
+    top: 50%;
+    left: 32%;
+    /* margin: auto; */
+  }
+ 
+.hair{
     position: absolute ;
-right: 6%;
+right: 10%;
     width: 35%;
 height: 88%;
-border-radius: 2% 100% 2% 100%;
+/* border-radius: 2% 100% 2% 100%; */
 border: 0;
 background: rgb(255, 255, 255);
 }
-.video img{
+.hair img{
     mix-blend-mode: multiply;
-    border-radius: 2% 100% 2% 100%;
-    width: 101%;
+    /* border-radius: 2% 100% 2% 100%; */
+    width: 100%;
     height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
-
-.video:hover{
+.hair:hover{
     opacity: 60%;
-   
 }
+.texthair {
+    color: white;
+    font-size: 50px;
+  position: absolute;
+    top: 50%;
+    left: 41%;
+    /* margin: auto; */
+  }
 .content3 {
     margin-top: .25%;
     width: auto;
