@@ -3,7 +3,7 @@ body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#a23982,#1f1013);
+    background: radial-gradient(#fa7cd4,#311a1f);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -218,25 +218,8 @@ button:focus{
   opacity: 0;
 }
 
+
 #head1{
-  -webkit-animation: fadeOut 1 2s ease-in;
-  -moz-animation: fadeOut 1 2s ease-in;
-  -o-animation: fadeOut 1 2s ease-in;
-  animation: fadeOut 1 2s ease-in;
-}
-
-#head2{
-  -webkit-animation: fadeOut 1 2s ease-in;
-  -moz-animation: fadeOut 1 2s ease-in;
-  -o-animation: fadeOut 1 2s ease-in;
-  animation: fadeOut 1 2s ease-in;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  animation-delay: 2s;
-}
-
-#head3{
 
   -webkit-animation: finalFade 1 2s ease-in;
   -moz-animation: finalFade 1 2s ease-in;
@@ -246,10 +229,10 @@ button:focus{
   -moz-animation-fill-mode: forwards;
   -o-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  -o-animation-delay: 4s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 @-webkit-keyframes fadeIn{
