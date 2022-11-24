@@ -79,40 +79,42 @@ display: grid;
 }
 .photo{
     position: absolute ;
-left: 10%;
-    width: 35%;
-height: 88%;
-border: 0;
+left: 5%;
+    width: 25%;
+height: 50%;
+border: solid 1px black;
 background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .photo img{
     mix-blend-mode: multiply;
-    width: 101%;
+    width: 100%;
     height: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.photo:hover{
+/* .photo:hover{
     opacity: 60%;
     color: transparent;
-}
+} */
 .other{
 position: absolute;
-top: 100%;
-left: 35%;
-    width: 35%;
-    height: 80%;
+top: 0;
+right: 5%;
+    width: 25%;
+    height: 50%;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-border: 0;
+border: solid 1px black;
 background: rgb(255, 255, 255);
 }
-.other:hover{
+/* .other:hover{
     opacity: 60%;
-}
+} */
 .other img{
     mix-blend-mode: multiply;
-    width: 100%;
-    height: 99%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    height: 90%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+border-radius: 0%;
 }
 .allphoto{
     color: white;
@@ -121,42 +123,44 @@ background: rgb(255, 255, 255);
     top: 45%;
     left: 15%;
 }
-.textmachiaj {
+/* .textmachiaj {
     color: white;
     font-size: 50px;
   position: absolute;
     top: 50%;
     left: 32%;
-    /* margin: auto; */
+    margin: auto;
   }
- 
+  */
 .hair{
     position: absolute ;
-right: 10%;
-    width: 35%;
-height: 88%;
-/* border-radius: 2% 100% 2% 100%; */
-border: 0;
+    top: 0%;
+right: 38%;
+    width: 25%;
+height: 50%;
+border: solid 1px black;
 background: rgb(255, 255, 255);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .hair img{
     mix-blend-mode: multiply;
     /* border-radius: 2% 100% 2% 100%; */
     width: 100%;
     height: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
-.hair:hover{
+/* .hair:hover{
     opacity: 60%;
-}
-.texthair {
+} */
+/* .texthair {
     color: white;
     font-size: 50px;
   position: absolute;
     top: 50%;
     left: 41%;
-    /* margin: auto; */
-  }
+    margin: auto;
+  } */
 .content3 {
     margin-top: .25%;
     width: auto;
@@ -260,3 +264,119 @@ right: 0;
 margin-right: 25px;
 opacity: 45%;
 }
+.overlay1 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: #008CBA; */
+    overflow: hidden;
+opacity: 80%;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .make{
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+  }
+  .make:hover .overlay1 {
+    bottom: 0;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .text1 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* font-family: "Comic" , Sans MS; */
+    font-family: 'Courier New', monospace;
+  }
+  .hair1{
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+  }
+  .overlay2 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: #008CBA; */
+    overflow: hidden;
+opacity: 80%;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .hair1:hover .overlay2 {
+    bottom: 0;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .text2 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* font-family: "Comic" , Sans MS; */
+    font-family: 'Courier New', monospace;
+  }
+
+  .all{
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+  }
+  .overlay3 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: #008CBA; */
+    overflow: hidden;
+opacity: 80%;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .all:hover .overlay3 {
+    bottom: 0;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .text3 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* font-family: "Comic" , Sans MS; */
+    font-family: 'Courier New', monospace;
+  }
