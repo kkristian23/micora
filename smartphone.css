@@ -3,7 +3,7 @@
 .header{
     position: relative;
     width: auto;
-    height: auto;
+    height: 10vh;
     background-color: rgb(143, 112, 112);
     top: 2.5%;
 }
