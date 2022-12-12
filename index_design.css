@@ -1,0 +1,74 @@
+.header{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: rgb(143, 112, 112);
+    top: 2.5%;
+    /* opacity: 75%; */
+
+}
+.all-icons{
+    width: auto;
+    height: auto;
+    /* background-color: black; */
+display: flex;
+   font-size: small;
+   margin-left: 12%;
+   margin-right: 12%;
+
+}
+a{
+margin-bottom: auto;
+    margin-top: auto; 
+    margin-left: 1%;  
+    text-decoration: none;
+
+}
+.phone{
+/* position: relative;
+left: 0; */
+}
+.nr{
+color: white;
+}
+.nr:hover{
+    color: black;
+}
+.location{
+    margin-left: 5%;
+}
+.loc{
+    color: white;
+    }
+    .loc:hover{
+        color: black;
+    }
+.message{
+  margin-left: 5%;
+}
+.mes{
+    color: white;
+    }
+    .mes:hover{
+        color: black;
+    }
+
+/* .fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: white;
+    color: black;
+}
+.fa-instagram {
+    background: white;
+    color: black;
+}
+.fa-phone {
+    background: white;
+    color: black;
+}
+.fa-whatsapp {
+    background: white;
+    color: black;
+    margin-right: 0;} */
