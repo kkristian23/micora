@@ -3,7 +3,7 @@
 .header{
     position: relative;
     width: auto;
-    height: 20vh;
+    height: 10vh;
     background-color: rgb(143, 112, 112);
     top: 2.5%;
 }
@@ -37,7 +37,7 @@ color: white;
 }
 .location{
     position: absolute;
-left: 36%;
+left: 40%;
 }
 .loc{
     color: white;
