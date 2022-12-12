@@ -1,4 +1,4 @@
-@media (min-width: 250px) and (max-width: 480px) {
+@media (min-width: 250px) and (max-width: 570px) {
    
 .header{
     position: relative;
@@ -8,6 +8,7 @@
     top: 2.5%;
 }
 img{
+    display: flex;
     position:absolute;
     width: auto;
     height: 90%;
@@ -16,7 +17,6 @@ img{
 .all-icons{
     width: auto;
     height: auto;
-display: flex;
    font-size: small;
    margin-left: 12%;
    margin-right: 12%;
