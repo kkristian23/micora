@@ -1,17 +1,21 @@
-
+@media (min-width: 250px) and (max-width: 480px) {
+   
 .header{
     position: relative;
     width: auto;
     height: auto;
     background-color: rgb(143, 112, 112);
     top: 2.5%;
-    /* opacity: 75%; */
-
+}
+img{
+    position:absolute;
+    width: auto;
+    height: 60%;
+    top: 30%;
 }
 .all-icons{
     width: auto;
     height: auto;
-    /* background-color: black; */
 display: flex;
    font-size: small;
    margin-left: 12%;
@@ -19,15 +23,11 @@ display: flex;
 
 }
 a{
-margin-bottom: auto;
-    margin-top: auto; 
-    margin-left: 1%;  
-    text-decoration: none;
-
+visibility: hidden;
 }
 .phone{
-/* position: relative;
-left: 0; */
+position: absolute;
+left: 20%;
 }
 .nr{
 color: white;
@@ -36,7 +36,8 @@ color: white;
     color: black;
 }
 .location{
-    margin-left: 5%;
+    position: absolute;
+left: 40%;
 }
 .loc{
     color: white;
@@ -45,11 +46,12 @@ color: white;
         color: black;
     }
 .message{
-  margin-left: 5%;
-}
+    position: absolute;
+    right: 20%;}
 .mes{
     color: white;
     }
     .mes:hover{
         color: black;
+    }
     }
