@@ -59,7 +59,7 @@ color: white;
         width: auto;
         height: 13%;
         background-color: rgb(255, 255, 255);
-        box-shadow: 0px 2px 5px white;
+        /* box-shadow: 0px 2px 10px rgb(255, 255, 255); */
     }
     .img_logo{
         margin-left: 12%;
@@ -75,6 +75,7 @@ color: white;
         height: fit-content;
         padding-bottom: 5%;
         padding-top: 5%;
+
 
     }
     .about{
