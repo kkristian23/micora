@@ -54,4 +54,21 @@ left: 40%;
     .mes:hover{
         color: black;
     }
+    .logo{
+        /* position: relative; */
+        width: auto;
+        height: 13%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 5px white;
+    }
+    .img_logo{
+        position: relative;
+        margin-left: 2%;
+        top: 0;
+        width: 30%;
+        height: 100%;
+    }
+
+
+
     }

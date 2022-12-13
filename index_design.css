@@ -4,6 +4,8 @@
     width: auto;
     height: auto;
     background-color: rgb(143, 112, 112);
+            box-shadow: 0px 3px 3px rgb(143, 112, 112);
+
     top: 2.5%;
     /* opacity: 75%; */
 
@@ -53,3 +55,41 @@ color: white;
     .mes:hover{
         color: black;
     }
+    .logo{
+        width: auto;
+        height: 13%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 5px white;
+    }
+    .img_logo{
+        margin-left: 12%;
+        width: 15%;
+        height: 100%;
+    }
+    .photo_about{
+        /* margin-top: 0; */
+        /* position: relative; */
+        background-color: aliceblue;
+        margin: auto;
+        width: auto;
+        height: fit-content;
+        padding-bottom: 5%;
+        padding-top: 5%;
+
+    }
+    .about{
+        /* position: absolute; */
+        display: flexbox;
+        margin: auto;
+        /* margin: 5% auto auto auto; */
+        width: 70%;
+        height: fit-content;
+        border: solid 3px gold;
+}
+p{
+    text-align: center;
+}
+.description{
+    padding-left: 10%;
+    padding-right: 10%;
+}
