@@ -1,22 +1,22 @@
-@media (min-width: 250px) and (max-width: 480px) {
+@media (min-width: 250px) and (max-width: 570px) {
    
 .header{
     position: relative;
     width: auto;
-    height: auto;
+    height: 10vh;
     background-color: rgb(143, 112, 112);
     top: 2.5%;
 }
 img{
+    display: flex;
     position:absolute;
     width: auto;
-    height: 90%;
-    top: 10%;
+    height: 50%;
+    top: 40%;
 }
 .all-icons{
     width: auto;
     height: auto;
-display: flex;
    font-size: small;
    margin-left: 12%;
    margin-right: 12%;
@@ -54,4 +54,24 @@ left: 40%;
     .mes:hover{
         color: black;
     }
+    .logo{
+        /* position: relative; */
+        width: auto;
+        height: 13%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 2px 5px white;
+    }
+    .img_logo{
+        position: relative;
+        margin-left: 2%;
+        top: 0;
+        width: 30%;
+        height: 100%;
+    }
+.back{
+    /* z-index:; */
+
+}
+
+
     }
